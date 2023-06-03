@@ -1,0 +1,127 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Add some basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHLPMi5idGrozxDlpS5kXeuA8j_rd8PPNpyg&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .destinations {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .destinations h2 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .destination {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .destination img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+  }
+  
+  .destination h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .destination p {
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  .newsletter {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .newsletter h2 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .newsletter button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+  }
+  
